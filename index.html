@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project 1: Hi-Lo Game</title>
+<!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- JQUERY -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+
+  <header class="colored-header">
+      <h1 class = "Hello">High and Low game!</h1>
+<p class = "paragraph">Intructions: Welcome to 'High and Low'! Guess the secret number between 1 and 100 by inputting your best guess. We'll tell you if your guess is too high or too low, so keep guessing until you find the hidden number!</p>
+
+
+
+</header>
+  <!--Text field-->
+
+
+
+
+
+
+
+
+
+<h3 class ="try "> Try Now!!</h3>
+
+
+
+  <main class="container text-center p-5">
+<div id="text">
+  <div class = "input-group mb-3">
+    <span class = "input-group-text">Enter number here:</span>
+    <input type="text" class = "form-control"
+      placeholder="Put your guess here!"/>
+  </div>
+
+<!-- HTML !-->
+  <br>
+<button class="button-54" role="button" onclick= compareValues()>ENTER</button>
+
+
+<p class ="guess" id="feedback"
+>MAKE A GUESS</p>
+<h3 id ="guesses">Previous Guesses</h3>
+  <div class ="gArray"></div>
+
+<br>
+
+</div>
+
+    <!-- CUSTOM JS -->
+  <script src="script.js"></script>
+  <!--   BOOTSTRAP JS -->
+    <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+  </html>

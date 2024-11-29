@@ -1,0 +1,134 @@
+
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+ .colored-header {
+        background-color: black; /* Replace with your desired background color */
+        color: #fff; /* Text color */
+        padding: 50px; /* Adjust padding as needed */
+        text-align: center; /* Center the text horizontally */
+
+    }
+.color-box{
+  background: black;
+  height:300px;
+  width:1457px;
+  margin-top:250px;
+  margin-left:-125px;
+}
+
+
+
+.input-group-text{
+background-color: black;
+  color:gray;
+
+}
+
+.form-control{
+color:black;
+  background-color: gray;
+}
+
+
+
+
+body {
+  background-image: url("https://c8.alamy.com/comp/2RHP6YC/arcade-video-gaming-black-and-white-lo-fi-aesthetic-wallpaper-2RHP6YC.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.guess{
+  font-size: 20px;
+  margin-top:20px;
+  color:white;
+  background-color:black;
+ width:270px;
+  margin-left:380px;
+  border-radius:30px;
+}
+
+
+.link-box {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin:100px;
+  border-radius:25px;
+  height:250px;
+}
+
+.link-box h2 {
+  font-size: 24px;
+  color:white;
+  font-family:Chalkduster, fantasy;
+
+}
+
+.link-box ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Display list items horizontally */
+  justify-content: center; /* Center the list horizontally */
+}
+
+.link-box ul li {
+  margin: 0 20px; /* Add horizontal spacing between links */
+
+}
+
+.link-box ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex; /* Display link content (image and text) horizontally */
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center align image and text */
+  font-weight: bold;
+  font-size: 18px;
+  margin-top:15px; 
+}
+
+.link-box ul li a img {
+  max-width: 200px; /* Set a maximum width for the images */
+  border-radius: 25px;
+
+}
+.try{
+  text-align: center ;
+  background-color: black;
+  color:white;
+  font-family:cursive;
+  border:dotted;
+  margin-top:30px;
+}
